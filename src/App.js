@@ -7,8 +7,6 @@ const DIRECTIONS = [
   { key: "l", label: "Left", icon: "←", code: 3, color: "#f500c3" },
 ];
 
-const dirMap = { f: 0, b: 1, r: 2, l: 3 };
-
 const PRESETS = [
   { name: "Square", steps: [{ dir: "f", dist: 100 }, { dir: "r", dist: 100 }, { dir: "b", dist: 100 }, { dir: "l", dist: 100 }] },
   { name: "Zigzag", steps: [{ dir: "f", dist: 50 }, { dir: "r", dist: 30 }, { dir: "f", dist: 50 }, { dir: "l", dist: 30 }] },
