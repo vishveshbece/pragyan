@@ -157,7 +157,7 @@ export default function AVRoutePlanner() {
   const [distance, setDistance] = useState("");
   const [status, setStatus] = useState(null);
   const [sending, setSending] = useState(false);
-  const [endpoint, setEndpoint] = useState("http://localhost:5000/save-data");
+  const [endpoint, setEndpoint] = useState("https://pragyan-backend.onrender.com/save-data");
   const [showEndpoint, setShowEndpoint] = useState(false);
   const distRef = useRef(null);
 
